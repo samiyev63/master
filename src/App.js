@@ -1,22 +1,263 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./imgs/logo1.png";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="lines">
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+        <span className="spans">
+          <hr></hr>
+        </span>
+      </div>
+      <header className="App-section">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="master-title">
+          <h1 className="master-h1">
+            Assalomu alaykum va rahmatullahi va barakatuhu ! Front-end
+            dasturchilar uchun kodli maydochaga xush kelibsiz!
+          </h1>
+          <div className="master-href">
+            <a href="#">Azo bolish</a>
+            <a href="#">Maydoncha</a>
+          </div>
+        </div>
       </header>
     </div>
   );
