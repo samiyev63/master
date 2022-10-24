@@ -2,7 +2,7 @@
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-
+  background-color: blueviolet;
   height: 100vh;
 }
 .App-section {
@@ -14,9 +14,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: blueviolet;
   gap: 20px;
   float: center;
+  z-index: 3;
 }
 .App-logo {
   width: 300px;
@@ -40,6 +40,26 @@
 .master-href {
   display: flex;
   gap: 224px;
+}
+
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.lines > .line {
+  position: relative;
+  border: 1px solid #6a468b;
+  transform: rotate(-45deg);
 }
 
 @media (max-width: 555px) {

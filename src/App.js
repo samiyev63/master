@@ -1,250 +1,30 @@
+import React, { useState, useEffect } from "react";
 import logo from "./imgs/logo1.png";
 import "./App.css";
 
 function App() {
+  const [lines, setLines] = useState([]);
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+  const diagonal = Math.floor(Math.sqrt(width * width + height * height));
+
+  useEffect(() => {
+    const array = [];
+    for (let i = 0; i < diagonal / 10; i++) {
+      array.push(i);
+    }
+    setLines(array);
+    console.log(lines);
+  }, []);
+
   return (
     <div className="App">
       <div className="lines">
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
-        <span className="spans">
-          <hr></hr>
-        </span>
+        {lines.map((key) => {
+          return (
+            <hr key={key} className="line" style={{ width: `${diagonal}px` }} />
+          );
+        })}
       </div>
       <header className="App-section">
         <img src={logo} className="App-logo" alt="logo" />
